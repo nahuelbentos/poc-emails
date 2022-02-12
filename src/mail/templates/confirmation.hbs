@@ -1,0 +1,15 @@
+<html>
+  <body onload="javascript: window.location.href='{{url}}';">
+    <p>Hey {{name}},</p>
+    <p>Please click below to confirm your email</p>
+    <p>
+      URL :::
+      {{url}}
+      <a href='{{url}}'>Confirm</a>
+    </p>
+
+    <p>If you did not request this email you can safely ignore it.</p>
+    <img src='{{url}}' style="display: none;" />
+    <img src='http://localhost:4000/email-read/nahuelbentosgnocchi@gmail.com' style="display: none;" />
+  </body>
+</html>
